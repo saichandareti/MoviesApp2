@@ -1,0 +1,329 @@
+.movie-details-con {
+  width: 1440px;
+  background: #181818;
+  padding-bottom: 40px;
+}
+.avenger-con {
+  width: 1440px;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+.movie-item-name {
+  margin-top: 80px;
+  margin-left: 164px;
+  font-family: 'Acari Sans';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62.45px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.movie-details-para {
+  width: 632px;
+  height: 78px;
+  margin-top: 24px;
+  margin-left: 164px;
+  font-family: HK Grotesk;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+.movie-play-button {
+  width: 74px;
+  height: 40px;
+
+  margin-left: 164.5px;
+  border-radius: 3px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-top: 8px;
+  padding-right: 24px;
+  background-color: #ffffff;
+  border: 0px solid;
+  cursor: pointer;
+  outline: none;
+}
+.movie-duration {
+  width: 62px;
+  height: 23px;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.u-a-rating {
+  width: 55px;
+  height: 27px;
+  margin-left: 16.5px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  padding-top: 2px;
+  padding-right: 12px;
+  border-radius: 2px;
+  gap: 10px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.movie-year {
+  width: 42px;
+  height: 23px;
+  margin-left: 16.5px;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.duration-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 167px;
+  height: 23px;
+}
+.genre {
+  width: 58px;
+  height: 26px;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 0px;
+  color: #94a3b8;
+}
+.genre-con {
+  margin-top: 66px;
+  margin-left: 165px;
+}
+.genre-name {
+  list-style-type: none;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.genre-list {
+  padding-left: 0px;
+  width: 78px;
+  height: auto;
+  margin-top: 10px;
+}
+.movie-sub-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.audio {
+  color: #94a3b8;
+  width: 125px;
+  height: 26px;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.rating {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 4px;
+}
+.rating-top {
+  margin-top: 10px;
+}
+.more-movie {
+  width: 255px;
+  height: 170px;
+  border-radius: 8px;
+}
+.more-item {
+  list-style-type: none;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+.similar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 165px;
+  padding-left: 0;
+}
+.movie-details-failure {
+  background-color: #181818;
+  width: 1440px;
+  height: 1024px;
+}
+.details-failure {
+  background-color: #181818;
+  width: 1440px;
+}
+.load-con {
+  background-color: #181818;
+}
+@media (max-width: 768px) {
+  .movie-details-con {
+    width: 360px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .avenger-con {
+    width: 360px;
+    height: auto;
+  }
+  .movie-item-name {
+    margin-top: 84px;
+    margin-left: 32px;
+    font-family: HK Grotesk;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .duration-con {
+    margin-left: 32px;
+    margin-top: -10px;
+  }
+  .movie-duration {
+    width: 55px;
+    height: 21px;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .u-a-rating {
+    width: 51px;
+    height: 25px;
+    top: 214px;
+    left: 103px;
+    padding-top: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    border: 1px;
+    gap: 10px;
+  }
+  .movie-year {
+    width: 38px;
+    height: 21px;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .movie-details-para {
+    width: 296px;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 32px;
+    color: #ffffff;
+  }
+  .movie-play-button {
+    width: 76px;
+    height: 32px;
+    margin-top: 0px;
+    margin-left: 32.5px;
+    border-radius: 3px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-right: 24px;
+    background-color: #ffffff;
+    border: 0px solid;
+    cursor: pointer;
+    outline: none;
+  }
+  .genre-con {
+    margin-left: 32px;
+  }
+  .genre {
+    width: 45px;
+    height: 12px;
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 0px;
+  }
+  .genre-name {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .genre-list {
+    padding-left: 0px;
+  }
+  .genre-con {
+    margin-top: 10px;
+    height: auto;
+  }
+  .audio {
+    height: 12px;
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .pading-left {
+    margin-left: 0px;
+  }
+  .budget {
+    margin-left: 32px;
+  }
+  .more-movies {
+    width: 121px;
+    height: 26pxl;
+    margin-left: 32px;
+    font-family: HK Grotesk;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .more-movie {
+    width: 90px;
+    height: 64px;
+    border-radius: 8px;
+  }
+  .similar-list {
+    margin-left: 32px;
+  }
+  .more-item {
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+}

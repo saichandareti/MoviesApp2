@@ -1,0 +1,93 @@
+.home-container {
+  width: 1440px;
+  background: #131313;
+  padding-bottom: 30px;
+}
+.trending {
+  width: 148px;
+  height: 31px;
+  margin-top: 48px;
+  margin-left: 165px;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    width: 360px;
+  }
+  .trending {
+    width: 99px;
+    height: 21px;
+    margin-top: 32px;
+    margin-left: 32px;
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+
+.contact-con {
+  width: 145px;
+  height: 21px;
+  margin-top: 96px;
+  margin-left: 648px;
+}
+.google-icon {
+  font-family: Font Awesome 5 Brands;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 18px;
+  height: 21px;
+  color: #ffffff;
+}
+.icon-margin {
+  margin-left: 24px;
+}
+.contact-us {
+  width: 80px;
+  height: 24px;
+  margin-top: 16px;
+  margin-left: 680px;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .contact-con {
+    margin-top: 64px;
+    margin-left: 125px;
+  }
+  .contact-us {
+    margin-left: 151px;
+    width: 60px;
+    height: 16px;
+    font-family: HK Grotesk;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    color: #ffffff;
+  }
+  .google-icon {
+    width: 14px;
+    height: 16px;
+  }
+}
