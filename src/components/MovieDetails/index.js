@@ -79,7 +79,7 @@ class MovieDetails extends Component {
         genres: jsonMovie.genres,
         isSuccess: apiConstants.onSuccess,
       })
-    } else if (response.ok !== true) {
+    } else {
       this.setState({isSuccess: apiConstants.onFailure})
     }
   }

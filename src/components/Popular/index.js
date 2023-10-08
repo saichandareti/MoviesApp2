@@ -7,7 +7,6 @@ import Cookies from 'js-cookie'
 import {Link} from 'react-router-dom'
 import Loader from 'react-loader-spinner'
 import Header from '../Header'
-import ContactUs from '../ContactUs'
 
 const apiConstants = {
   onSuccess: 'SUCCESS',
@@ -82,16 +81,16 @@ class Popular extends Component {
           <>
             <ul className="popular-list">
               {popularData.map(every => (
-                <Link to={`/movies/${every.id}`} key={every.id}>
-                  <li className="popular-item" key={every.id}>
+                <li className="popular-item" key={every.id}>
+                  <Link to={`/movies/${every.id}`} key={every.id}>
                     <img
                       src={every.posterPath}
                       alt={every.title}
                       key={every.id}
                       className="popular-movie"
                     />
-                  </li>
-                </Link>
+                  </Link>
+                </li>
               ))}
             </ul>
             <>

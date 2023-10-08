@@ -52,7 +52,7 @@ class HomePoster extends Component {
         poster: randomPosterDetails,
         isTrendingSuccess: trendingApiConstants.onSuccess,
       })
-    } else if (response.ok !== true) {
+    } else {
       this.setState({isTrendingSuccess: trendingApiConstants.onFailure})
     }
   }

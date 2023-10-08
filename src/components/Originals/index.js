@@ -2,6 +2,7 @@ import {Component} from 'react'
 import Cookies from 'js-cookie'
 import Loader from 'react-loader-spinner'
 import SlickMovieCard from '../SlickMovieCard'
+import HomePoster from '../HomePoster'
 
 import './index.css'
 import FailureView from '../FailureView'
@@ -45,7 +46,6 @@ class Originals extends Component {
         posterPath: each.poster_path,
         title: each.title,
       }))
-      // console.log(updatedData)
       this.setState({
         originals: updatedData,
         apiStatus: apiStatusConstants.success,
@@ -81,7 +81,7 @@ class Originals extends Component {
       <>
         {/* <p className="json">{JSON.stringify(trendingNow)}</p> */}
         {/* <HomeVideos homeVideos={homeVideos} /> */}
-
+        <HomePoster originals />
         <SlickMovieCard movies={originals} />
       </>
     )

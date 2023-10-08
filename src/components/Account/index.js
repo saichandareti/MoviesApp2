@@ -24,46 +24,40 @@ class Account extends Component {
     const passwordList = passWord.split('')
     const hashed = passwordList.map(each => '*')
 
-    console.log(hashed)
     return (
-      <div className="account-con">
+      <>
         <Header />
-        <div className="account-container">
-          <h1 className="account-heading">Account</h1>
-          <hr className="rule" />
-          <div className="member-ship">
-            <p className="member-heading">Member ship</p>
-            <div className="gmail-password">
-              <h1 className="gmail-heading">{userName}</h1>
-              <p className="password-heading">Password : {hashed}</p>
+        <div className="account-section-bg-container">
+          <h1 className="account-title">Account</h1>
+          <hr className="ruler" />
+          <div className="membership-container">
+            <p className="account-description">Membership:</p>
+            <div className="user-details-container">
+              <p className="account-details">rahul@gmail.com</p>
+              <p className="account-password">Password : ************</p>
             </div>
           </div>
-          <hr className="rule" />
-          <div className="member-ship">
-            <p className="member-heading">Plan details</p>
-            <p className="premium">Premium</p>
-            <p className="ultra-hd">Ultra HD</p>
+          <hr className="ruler" />
+          <div className="membership-container">
+            <p className="account-description">Plan details:</p>
+            <p className="account-details">Premium</p>{' '}
+            <p className="ultra-text">Ultra HD</p>
           </div>
-          <hr className="rule" />
-          <button
-            type="button"
-            className="logout-button"
-            onClick={this.OnLogout}
-          >
-            Logout
-          </button>
+          <hr className="ruler" />
+          <div className="button-container">
+            <button
+              className="Logout-button"
+              type="button"
+              onClick={this.OnLogout}
+            >
+              Logout
+            </button>
+          </div>
         </div>
-
-        <>
-          <div className="contact-con">
-            <FaGoogle className="google-icon" />
-            <FaTwitter className="google-icon icon-margin" />
-            <FaInstagram className="google-icon icon-margin" />
-            <FaYoutube className="google-icon icon-margin" />
-          </div>
-          <p className="contact-us">Contact us</p>
-        </>
-      </div>
+        <div className="account-footer">
+          <ContactUs />
+        </div>
+      </>
     )
   }
 }

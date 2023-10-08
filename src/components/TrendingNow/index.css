@@ -9,6 +9,10 @@
   align-items: center;
   justify-content: center;
 }
+.trending-now-container {
+  width: 80%;
+  margin-left: 105px;
+}
 .trending-para {
   width: 251px;
   height: 18px;

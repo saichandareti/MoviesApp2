@@ -97,7 +97,7 @@ class SearchMovies extends Component {
         <ul className="popular-list">
           {moviesData.map(every => (
             <Link to={`/movies/${every.id}`} key={every.id}>
-              <li className="popular-item">
+              <li className="popular-item" key={every.id}>
                 <img
                   src={every.posterPath}
                   alt={every.title}

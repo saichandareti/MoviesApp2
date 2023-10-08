@@ -211,3 +211,35 @@
     border-radius: 3px;
   }
 }
+.search-failure {
+  width: 360px;
+  height: 640px;
+}
+.something-went-wrong {
+  width: 233px;
+  height: 172px;
+  margin-left: 64px;
+}
+.something-went-para {
+  width: 296px;
+  height: 24px;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 32px;
+}
+.try-again-button {
+  height: 40px;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 4px, 24px, 8px, 24px;
+  margin-left: 126.5px;
+  border-radius: 3px;
+}
